@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet user"
+author: pablo.mateo.fdez@gmail.com
+
+inputs:
+  MY_NAME:
+    description: "Who should we greet"
+    required: true
+    default: "Mr. Mateo"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
